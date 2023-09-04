@@ -1,0 +1,9 @@
+.navbar {
+    background:$primary-100;
+    .show{
+    @include large {
+       //漸層背景
+        background:linear-gradient(to bottom, #7000FF 0%,  #11002D 100%);
+        }
+    }
+}

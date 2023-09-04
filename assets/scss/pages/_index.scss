@@ -1,3 +1,125 @@
-.index-title {
-  font-size: 100px;
+.bg{
+  background: url('../../assets/images/week8-ai/about_us.png'),linear-gradient(to right,#300871 0%,#000000 100%);
+  background-repeat: no-repeat,no-repeat;
+  background-size: 50% 1080px,100%,1080px;
+  @include medium{
+    background-size: 100% 1080px,0%,1080px;
+  }
+}
+.news{
+  background: radial-gradient(circle at center,#28085C,#000000);;
+}
+.time{
+  letter-spacing: 16px;
+}
+.alphaboxCircle {
+  width: 196px;
+  animation-name: rotate;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; 
+  animation-fill-mode: both; 
+}
+@keyframes rotate {
+  0% { transform: rotate(0deg);}
+  100% { transform: rotate(90deg); }
+}
+
+.share{
+  background: radial-gradient(50% 50% at 50% 50%, #000 0%, #28085C 100%);;
+  .title{
+    letter-spacing: 48px;
+    @include large{
+    letter-spacing: 40px;
+    }
+  }
+  .swiper {
+    overflow: initial;
+  }
+  .share-card {
+    padding: 40px;
+    .sideitem{
+      //width: 416px;
+      height: 416px;
+      @include medium{
+        //width: 351px;
+        height: 351px;
+      }
+      &:nth-child(2n){
+        background-color: #FFFFFF;
+        color:#000000;
+      }
+      &:nth-child(2n+1){
+        background-color: $primary-300;
+      }
+    }
+  }
+}
+/* 滾動條可拖曳區塊的顏色 */
+.swiper-scrollbar-drag {
+  background-color:#fff;
+}
+
+/* 整個滾動條的背景顏色 */
+.swiper-scrollbar {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.ls{
+  letter-spacing: 48px;
+    @include medium{ 
+    letter-spacing: 24px;
+    }
+}
+.contentme{
+  .title{
+    letter-spacing: 48px;
+    @include large{ 
+    letter-spacing: 40px;
+    }
+  }
+}
+//角色卡
+.card1{
+  background-color: #000;
+  background-blend-mode: darken;
+  background-image: url('../../assets/images/week8-ai/diane_vertical.png');
+  background-size: cover;
+  background-position: center;
+  transition: all 1s;
+  &:hover {
+    background-color: rgb(0,0,0,0.5);
+  }
+}
+.card2{
+  background-color: #000;
+  background-blend-mode: darken;
+  background-image: url('../../assets/images/week8-ai/felix_vertical.png');
+  background-size: cover;
+  background-position: center;
+  transition: all 1s;
+  &:hover {
+    background-color: rgb(0,0,0,0.5);
+  }
+}
+.card3{
+  background-color: #000;
+  background-blend-mode: darken;
+  background-image: url('../../assets/images/week8-ai/karina_verticalgle.png');
+  background-size: cover;
+  background-position: center;
+  transition: all 1s;
+  &:hover {
+    background-color: rgb(0,0,0,0.5);
+  }
+}
+.card4{
+  background-color: #000;
+  background-blend-mode: darken;
+  background-image: url('../../assets/images/week8-ai/vito_vertical.png');
+  background-size: cover;
+  background-position: center;
+  transition: all 1s;
+  &:hover {
+    background-color: rgb(0,0,0,0.5);
+  }
 }

@@ -1,0 +1,20 @@
+$primary-0: #E9E2F3;
+$primary-100: #7000FF;
+$primary-200: #6E01F8;
+$primary-300: #380C7E;
+$primary-400: #1F0F39;
+$primary-500: #11002D;
+$primary-600: #28085C;
+$primary-700: #300871;
+$AD93CF: #AD93CF !default;
+$custom-colors:(
+    "primary-0":$primary-0,
+    "primary-100":$primary-100,
+    "primary-200":$primary-200,
+    "primary-300":$primary-300,
+    "primary-400":$primary-400,
+    "primary-500":$primary-500,
+    "primary-600":$primary-600,
+    "AD93CF" : $AD93CF
+);
+$theme-colors:map-merge($theme-colors , $custom-colors );
