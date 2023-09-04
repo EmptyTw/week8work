@@ -1,0 +1,16 @@
+.footer{
+  background: #FFF;
+  a{
+    &:hover{
+      color: $primary !important;;
+    }
+  }
+  img{
+    width: 80px;
+    height: 80px;
+    @include large{
+      width: 80px;
+      height: 80px;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.main{
+    background: #E9E2F3;
+    h2{
+        color: #1F0F39; 
+        letter-spacing: 40px;
+        @include large{
+            letter-spacing: 48px;
+        }
+    }
+    a{
+        color: #1F0F39; 
+    }
+}
