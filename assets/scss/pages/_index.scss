@@ -1,11 +1,11 @@
 .bgimg{
-  @include large{
+  
   background: url('../../assets/images/week8-ai/about_us.png');
   height: 1089px;
   background-size: cover;
   background-position: center;
   filter: blur(12px);
-  }
+  
 }
 .bannerbg{
   
