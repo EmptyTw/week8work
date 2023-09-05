@@ -1,5 +1,29 @@
+.bgimg{
+  @include large{
+  background: url('../../assets/images/week8-ai/about_us.png');
+  height: 1089px;
+  background-size: cover;
+  background-position: center;
+  filter: blur(12px);
+  }
+}
+.bannerbg{
+  
+  background-image: url('/assets/images/week8-ai/home_background.png');
+  height: 880px;
+  background-size: cover;
+  background-position: center;
+  @include large{
+    background: linear-gradient(180deg,#7000ff 0%,#11002D 100%);
+    height: auto;
+  }
+ 
+}
+.bgcolor{
+  background: radial-gradient(50% 50% at 50% 50%, #300871 0%, #000 100%);
+}
 .bg{
-  background: url('../../assets/images/week8-ai/about_us.png'),linear-gradient(to right,#300871 0%,#000000 100%);
+  background: url('../../assets/images/week8-ai/about_us.png'),radial-gradient(to right,#300871 0%,#000000 100%);
   background-repeat: no-repeat,no-repeat;
   background-size: 50% 1080px,100%,1080px;
   @include medium{
